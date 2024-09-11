@@ -15,7 +15,7 @@ public static Connection getConexaoMySQL() {
 	}
 	String serverName = "localhost";
 	String mydatabase = "teste";
-	String url = "jdbc://mysql://" + serverName + "/" + mydatabase;
+	String url = "jdbc:mysql://" + serverName + ":3306/" + mydatabase;
 	
 	String username = "root";
 	
