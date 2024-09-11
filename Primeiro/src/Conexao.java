@@ -6,7 +6,7 @@ public class Conexao {
 public static Connection getConexaoMySQL() {
 	Connection connection = null;
 	// driver de conexão
-	String driverName = "com.mysql.cj.jdbc.Drive";
+	String driverName = "com.mysql.cj.jdbc.Driver";
 	try {
 	Class.forName(driverName);
 	} catch (ClassNotFoundException e) {
